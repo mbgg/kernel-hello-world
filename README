@@ -1,0 +1,9 @@
+This is a small hello world kernel modules.
+
+You will need to download the kernel source code to compile the module against. Beware that if you want to load the module on your local machine, you will need to compile it against the kernel source of your installed kernel. In openSUSE you can do that by installing the kernel-devel package:
+
+sudo zypper in kernel-devel
+
+You must export the KERNELDIR accordingly to be able to compile the module against it.
+
+Good luck!
